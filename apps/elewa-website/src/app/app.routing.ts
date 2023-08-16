@@ -10,6 +10,8 @@ export const ELEWA_WEBSITE_ROUTES: Route[] = [
   { path: 'home', loadChildren: () => import('@elewa-website/features/pages/home').then(m => m.FeaturesPagesHomeModule) },
 
   { path: 'about', loadChildren: () => import('@elewa-website/features/pages/about').then(m => m.FeaturesPagesAboutModule) },
+
+  { path: 'partners', loadChildren: () => import('@elewa-website/pages/home/components').then(m => m.PagesHomeComponentsModule)},
 ];
 
 @NgModule({
