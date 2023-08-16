@@ -1,0 +1,56 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+button{
+    background-color: var(background-color, #031b35);
+    color: var(--bgColor, white);
+    border: 2px solid transparent;
+    height: 45px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        background-color: var(--bgColor, white);
+        color: var(--color, #031b35);
+        border: 2px solid #031b35;
+    }
+
+    &:hover .spanIcon{
+        background-color: #031b35;
+    }
+
+    &:hover .fa-solid{
+        margin-left: 13px;
+        color: white;
+    }
+}
+
+.fa-solid{
+    color: #031b35;
+    transition: all 0.5s ease-in-out;
+    margin-left: 0px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.spanIcon{
+    width: 30px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    padding-left: 4px;
+    justify-content: left;
+    align-items: center;
+    margin-left: 15px;
+    transition: all 0.2s ease-in-out;
+}
