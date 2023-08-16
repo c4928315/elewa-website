@@ -20,6 +20,9 @@
       ],
       "@elewa-website/features/pages/home": [
         "libs/features/pages/home/src/index.ts"
+      ],
+      "@elewa-website/pages/home/components": [
+        "libs/pages/home/components/src/index.ts"
       ]
     }
   },
