@@ -1,1 +1,7 @@
-<p>partners-section works!</p>
+<div class="partnerSection">
+    <div class="imageContainer">
+        <div class="image" *ngFor="let image of images">
+          <img [src]="image.url" alt="Partners_Image" />
+        </div>
+    </div>
+</div>
